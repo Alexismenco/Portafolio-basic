@@ -447,6 +447,7 @@ footer{
         position: relative;
         display: flex;
         justify-content: center;
+        font-size: 15px;
         align-items: center;
         max-height: 3px;
         margin-bottom: 15px;
