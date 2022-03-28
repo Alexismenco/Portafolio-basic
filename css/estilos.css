@@ -63,7 +63,6 @@ nav > a{
     margin-right: 10px;
 }
 
-
 nav > a:hover{
     text-decoration: underline;
     background-color: transparent;
@@ -447,10 +446,11 @@ footer{
         position: relative;
         display: flex;
         justify-content: center;
-        font-size: 15px;
         align-items: center;
-        max-height: 3px;
+        font-size: 15px;
+        max-height: 30px;
         margin-bottom: 15px;
+        
     }
 
     .footer1
@@ -469,7 +469,7 @@ footer{
         gap: 50px;
     }
     ul li
-    {
+    { 
         position: relative;
         list-style: none;
         width: 80px;
