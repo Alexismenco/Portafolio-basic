@@ -273,3 +273,15 @@ a:-webkit-any-link {
 .portafolio {
     margin-top: 100px;
 }
+
+.navbar-brand {
+    background-color: transparent;
+    color: black;
+}
+.navbar-toggler{
+    color: transparent;
+}
+
+.inicio {
+    color: black;
+}
