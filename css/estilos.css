@@ -137,7 +137,6 @@ ol li:hover a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
 .div1 .div2{
@@ -214,5 +213,63 @@ textarea {
 }
 .bienvenido {
     text-shadow: 2px 2px 2px black;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.topic {
+    align-items: center;
+    background: #fff;
+    border-radius: 26px;
+    border: 2px solid #ffffff;
+    color: #111;
+    display: inline-flex;
+    height: 55px;
+    width: auto;
+    font-size: 1.3rem;
+    margin: 7px;
+    padding: 0 24px;
+    position: relative;
+    transition: all .3s ease;
+    max-width: max-content;
+    box-shadow: 8px 0 15px 0 rgb(0 0 0 / 90%);
+}
+
+.topic h4 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+a, a:hover {
+    text-decoration: none;
+    background-color: #4d0686;
+    border-color: #4d0686;
     
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.topic img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.titulo {
+    margin-bottom: 80px;
+}
+.portafolio {
+    margin-top: 100px;
 }
