@@ -1,112 +1,197 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AlexisMer</title>
-    <link rel="shortcut icon" href="img/log.png" class="log" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <title>Portafolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/portafolio.png">
+  </head>
 
 <body>
-    <header>
-       
-        <nav>
-            <a class="inicio" href="#inicio">Inicio</a>
-            <a class="habilidades" href="#habilidades">Habilidades</a>
-            <a class="experiencia" href="#experiencia">Experiencia</a>
-            <a class="sobremi" href="#sobremi">Sobre mi</a>
-            
-        </nav>
-        <section id="inicio" class="textos-header">
-            
-            <h1>Hola, soy Alexis Menco Ríos</h1>
-            <img src="img/x.png" class="x">
-            <h2><b>Fronted Developer</b></h2>
-        </section>
-        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
-                style="height: 100%; width: 100%;">
-                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                    style="stroke: none; fill: #414141;"></path>
-            </svg></div>
-    </header>
-    <main>
+
+
+    <!-- Nav -->
+    <nav class="navbar navbar-dark bg-transparent fixed-top">
+        <div class="container-fluid bg-transparent">
+            <a class="navbar-brand " href="#" style="color: black;">Inicio</a>
+            <button class="navbar-toggler border-3" style="color: transparent;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class=" navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end bg-dark opacity-50" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header bg-transparent">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel" >Menu</h5>
+                <button type="button" class=" bg-transparent opacity-100  text-white" style="border-color: transparent;" data-bs-dismiss="offcanvas" aria-label="Close" ><b>❌</b></button>
+                </div>
+                <div class="offcanvas-body bg-transparent text-white">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active" style="color: aquamarine;" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" style="color: aquamarine;" href="acercademi.html">Acerca de mí</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" style="color: aquamarine;" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+        <form class="d-flex bg-transparent">
+          <input class="form-control me-2 bg-transparent" type="search" placeholder="Buscar" aria-label="Search" style="color: aquamarine;">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+                </div>
+            </div>
+        </div>
+    </nav>
     
-        <section class="portafolio">
-            <div class="contenedor">
-                <h2 id="habilidades" class="titulo">Mis habilidades</h2>
 
-                <a class="topic" title="Artículos sobre Html">
-                    <img decoding="async" alt="html" loading="lazy" src="img/html.png" width="48" height="48">
-                    <h4> Html</h4>
-                </a>
-                <a class="topic" title="Artículos sobre Css">
-                    <img decoding="async" alt="css" loading="lazy" src="img/css.png" width="48" height="48">
-                    <h4> Css</h4>
-                </a>
+    <!-- Portada -->
+    <div class="portada">
+      
+        <section id="inicio" class="textos-header">
+            <img src="img/x.png" class="x">
+            <h3 class="bienvenido"></h3>
+            <h1 class="card-title">Soy Alexis Menco Ríos</h1>
+            <h2><b>Full Stack Developer</b></h2>
+            
+        </section>
+        <div class="barra" style="height: 150px; overflow: hidden;">
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #414141;"></path>
+            </svg>
+        </div>
+    </div>
 
-                <a class="topic" title="Artículos sobre Javascript">
-                    <img decoding="async" alt="javascript" loading="lazy" src="img/javascript.png" width="48" height="48">
-                    <h4> Javascript</h4>
-                </a>
-                <a class="topic" title="Artículos sobre Illustrator">
-                    <img decoding="async" alt="illustrator" loading="lazy" src="img/illustrator.png" width="48" height="48">
-                    <h4> Illustrator</h4>
-                </a>
-                <a class="topic" title="Artículos sobre Photoshop">
-                    <img decoding="async" alt="photoshop" loading="lazy" src="img/photoshop.png" width="48" height="48">
-                    <h4> Photoshop</h4>
-                </a>
-                
-                   
-                
-            </div>
-        </section>
-        <section class="about-services">
-            <div class="contenedor">
-                <h2 id="experiencia" class="titulo">Experiencia</h2>
-                <div class="servicio-cont">
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion1.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion4.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
-                    <div class="servicio-ind">
-                        <img src="img/ilustracion3.svg" alt="">
-                        <h3>Name</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, qui?</p>
-                    </div>
+    <h1 class="text-center m-5">Proyectos</h1>
+
+    <!-- columnas -->
+
+    <div class="container">
+        <div class="row justify-content-center text-center" >
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 1</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
                 </div>
-            </div>
-        </section>
-        <section class="clientes contenedor">
-            <h2 id="sobremi" class="titulo">Sobre mi</h2>
-            <div class="cards">
-                
-                <div class="card">
-                    <img src="img/face2.jpg" alt="">
-                    <div class="contenido-texto-card">
-                        <h4>...</h4>
-                        <p> Soy una persona completamente autodidacta, me encantan las tegnologias, introvertido y me gustan los juegos.</p>
-                    </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
                 </div>
-            </div>
-        </section>
-        
-    </main>
-    <footer class="footer1">
-        
-        <ul>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 3</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 4</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 5</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 6</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 7</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3 m-auto">
+                  
+            <!-- Card -->
+
+            <div class=" card m-3 m-auto mt-5" >
+                <img src="img/fondo.jpg" class="card-img-top" alt="..." >
+                <div class="card-body">
+                  <h5 class="card-title">Proyecto 8</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Ver proyecto</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- footer -->
+
+    <footer >
+        <div class="logofooter">
+        <ol>
             
             <li style="--clr:#1da1f2;">
                 <a href="https://twitter.com/Alexis__mer" target="_blank"><i class="fa-brands fa-twitter"></i></a>
@@ -118,11 +203,15 @@
             <li style="--clr:#1da1f2;">
                 <a href="https://www.linkedin.com/in/alexismenco/" target="_blank"><i class="fa-brands fa-linkedin"></i></i></a>
             </li>
-        </ul>
-        
-    </footer>
-    <footer class="copy">&copy;<b>Alexis Menco - Todos los derechos reservados.</b></footer>
-    
-</body>
+        </ol>
+        </div>
 
+
+        <div class="footer-content">
+            &copy;<b>Alexis Menco - Todos los derechos reservados.</b>
+
+        </div>
+    </footer>  
+    <script src="js/main.js"></script>
+</body>
 </html>
