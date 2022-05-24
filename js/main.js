@@ -12,7 +12,7 @@ function escribe() {
 };
 escribe()
 
-formulario.addEventListener("submit", envioCorreo);
+formulario.addEventListener("submit", envioCorreo());
 
 function envioCorreo(event){
     event.preventDefault()
