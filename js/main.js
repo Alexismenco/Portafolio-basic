@@ -12,11 +12,3 @@ function escribe() {
 };
 escribe()
 
-formulario.addEventListener("submit", envioCorreo());
-
-function envioCorreo(event){
-    event.preventDefault()
-    const form = new FormData(this);
-    console.log(form.get('name'))
-
-}
