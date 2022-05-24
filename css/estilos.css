@@ -164,17 +164,17 @@ ol li:hover a{
 }
 
 .div1 .div2 > .contenido-texto{
-    width: 60%;
+    width: 80%;
     color: #fff;
 }
 
 .div1 .div2 > .contenido-texto p{
-    font-weight: 300;
+    font-weight: 600;
     padding-top: 5px;
 }
 
 .div1 .div2{
-    width: 90%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -189,7 +189,10 @@ ol li:hover a{
     margin-bottom: 30px;
 }
 .imagenacercademi{
-    margin: 10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 60%);
+    filter: grayscale(55%);
 }
 
 textarea {
