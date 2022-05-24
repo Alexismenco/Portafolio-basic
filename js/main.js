@@ -1,4 +1,4 @@
-
+var formulario = document.querySelector("#form");
 var bienvenido = "¡Bienvenido!";
 var h2 = document.querySelector('.bienvenido');
 let i = 0;
@@ -11,3 +11,12 @@ function escribe() {
     };   
 };
 escribe()
+
+formulario.addEventListener("submit", envioCorreo);
+
+function envioCorreo(event){
+    event.preventDefault()
+    const form = new FormData(this);
+    console.log(form.get('name'))
+
+}

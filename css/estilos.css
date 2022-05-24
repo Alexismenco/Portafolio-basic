@@ -294,3 +294,12 @@ a:-webkit-any-link {
     color: #fff;
     
 }
+
+b > span {
+    color: red;
+}
+
+.envioDirecto{
+    margin-top: 12px; 
+    width: max-content;
+}

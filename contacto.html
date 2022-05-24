@@ -69,16 +69,16 @@
     <div class="formulario row justify-content-center text-white align-items-center">
     
 
-        <form action="" class="text-center m-3">
-            <label for="nombre"><b>Nombre</b></label>
-            <input id="nombre" class="form-control" type="text" name="nombre" placeholder="Nombre" required>
+        <form action="" class="text-center m-3" id="form">
+            <label for="name"><b>Nombre <span>*</span></b></label>
+            <input id="name" class="form-control" type="text" name="nombre" placeholder="Nombre" required>
             
             <br>
-            <label for="correo"><b>Correo</b> </label>
-            <input name="correo" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+            <label for="email"><b>Correo electrónico <span>*</span></b> </label>
+            <input name="email" class="form-control" id="exampleFormControlInput1" placeholder="correo@example.com" required>
             <br>
-            <label for="exampleFormControlTextarea1" class="form-label"><b>Mensaje</b></label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+            <label for="message" class="form-label"><b>Mensaje <span>*</span></b></label>
+            <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
             <br>
             <input class="submit btn btn-primary" type="submit" value="Enviar">
     
@@ -92,7 +92,7 @@
     <div class="row justify-content-center text-center mt-5 text-white">
         <h3>Tambien puedes contactarme directamente a mi correo electrónico.</h3>
 
-        <a href="mailto:mencoalexis@gmail.com" class="btn btn-primary" style="margin-top: 12px; width: max-content;">Enviar correo electrónico</a>
+        <a href="mailto:mencoalexis@gmail.com" class="btn btn-primary envioDirecto">Enviar correo electrónico</a>
     </div>
     
 
