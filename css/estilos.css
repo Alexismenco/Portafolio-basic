@@ -3,6 +3,9 @@ body {
     margin: 0%;
     padding: 0%;
     background-color: #414141;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
 ::-webkit-scrollbar{
     display: none;
@@ -212,7 +215,8 @@ textarea {
     border-radius: 20px;
 }
 .bienvenido {
-    text-shadow: 2px 2px 2px black;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(10, 10, 10);
 }
 
 .contenedor {
@@ -273,12 +277,17 @@ a:-webkit-any-link {
 
 .titulo {
     margin-bottom: 80px;
+    color: #fff;
 }
 .portafolio {
     margin-top: 100px;
 }
 
 .inicio {
-    color: black;
+    color: #fff;
     text-decoration: none;
+}
+.date{
+    color: #fff;
+    
 }
