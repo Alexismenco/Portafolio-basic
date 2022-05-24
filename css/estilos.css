@@ -246,8 +246,12 @@ textarea {
     padding-left: 10px;
     padding-top: 10px;
 }
+.contenedor > a {
+    text-decoration: none;
+}
 
-a, a:hover {
+
+.contenedor > a:hover {
     text-decoration: none;
     background-color: #4d0686;
     border-color: #4d0686;
@@ -276,13 +280,5 @@ a:-webkit-any-link {
 
 .inicio {
     color: black;
-    background-color: transparent;
-}
-.inicio:hover{
-    background-color: transparent;
-    color: black;
-}
-
-.nav-link {
-    background-color: transparent;
+    text-decoration: none;
 }
