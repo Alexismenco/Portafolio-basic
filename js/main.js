@@ -10,5 +10,8 @@ function escribe() {
         setTimeout(escribe, 200);
     };   
 };
-escribe()
+document.body.onload = function() {
+    escribe()
+  }
+
 
