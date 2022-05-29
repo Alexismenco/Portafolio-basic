@@ -303,3 +303,16 @@ b > span {
     margin-top: 12px; 
     width: max-content;
 }
+#message{
+    background-color: black;
+    color: wheat;
+}
+#exampleFormControlInput1{
+    background-color: black;
+    color: wheat;
+}
+
+#name{
+    background-color: black;
+    color: wheat;
+}
